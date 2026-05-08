@@ -8,8 +8,13 @@ services:
       - coolify
     labels:
       - "traefik.enable=true"
+      # HTTP -> HTTPS redirect
+      - "traefik.http.routers.kymuskie-http.rule=Host(`kymuskie.advancedmarketing.co`)"
+      - "traefik.http.routers.kymuskie-http.entrypoints=http"
+      - "traefik.http.routers.kymuskie-http.middlewares=redirect-to-https"
+      # HTTPS
       - "traefik.http.routers.kymuskie.rule=Host(`kymuskie.advancedmarketing.co`)"
-      - "traefik.http.routers.kymuskie.entrypoints=websecure"
+      - "traefik.http.routers.kymuskie.entrypoints=https"
       - "traefik.http.routers.kymuskie.tls.certResolver=letsencrypt"
       - "traefik.http.services.kymuskie.loadbalancer.server.port=80"
 
