@@ -5,7 +5,7 @@ import path from "path";
 
 export const metadata = {
   title: "Gallery — Cave Run Muskie Guide Service",
-  description: "Trophy fish, lodge moments, and Cave Run scenes from our clients and guides.",
+  description: "Trophy fish, lodge moments, and Cave Run scenes from our clients.",
 };
 
 function listImages(folder: string) {

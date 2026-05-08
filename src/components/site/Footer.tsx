@@ -30,7 +30,6 @@ export default function Footer() {
             <li><Link href="/crappie" className="hover:text-clay-300">Crappie & Multi-Species</Link></li>
             <li><Link href="/lodge" className="hover:text-clay-300">The Lodge</Link></li>
             <li><Link href="/packages" className="hover:text-clay-300">Packages & Pricing</Link></li>
-            <li><Link href="/our-guides" className="hover:text-clay-300">Our Guides</Link></li>
             <li><Link href="/gallery" className="hover:text-clay-300">Gallery</Link></li>
             <li><Link href="/cave-run-lake" className="hover:text-clay-300">Cave Run Lake</Link></li>
             <li><Link href="/faq" className="hover:text-clay-300">FAQ</Link></li>

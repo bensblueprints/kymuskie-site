@@ -2,16 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Fish, Sun, Users } from "lucide-react";
 import Reveal from "@/components/site/Reveal";
-import { offerings, guides } from "@/lib/content";
+import { offerings } from "@/lib/content";
 import type { Metadata } from "next";
 
 const crappie = offerings[1];
-const tim = guides.find((g) => g.name === "Tim Newsome")!;
 
 export const metadata: Metadata = {
   title: "Crappie & Multi-Species Fishing — Cave Run Lake, KY",
   description:
-    "Crappie, bass, white bass, and turkey hunts with Tim Newsome — one of the Cave Run area's top multi-species anglers.",
+    "Crappie, bass, white bass, and turkey hunts on Cave Run Lake — family-friendly multi-species trips.",
 };
 
 export default function CrappiePage() {
@@ -70,20 +69,22 @@ export default function CrappiePage() {
           </Reveal>
 
           <Reveal delay={0.2}>
-            <div className="rounded-3xl overflow-hidden bg-forest-900 text-bone-50 p-1">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
+            <div className="rounded-3xl overflow-hidden bg-forest-900 text-bone-50">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-t-3xl">
                 <Image
                   src="/images/hero/springslider-961x440.jpg"
-                  alt="Tim Newsome — multi-species guide"
+                  alt="Spring fishing on Cave Run"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-7">
-                <div className="eyebrow text-clay-300">Your Guide</div>
-                <div className="font-display text-3xl mt-2">{tim.name}</div>
-                <div className="text-sm text-clay-300 mt-1">{tim.role}</div>
-                <p className="mt-5 text-bone-100/85 leading-relaxed">{tim.bio}</p>
+                <div className="eyebrow text-clay-300">Multi-Species</div>
+                <div className="font-display text-3xl mt-2">Tim Newsome</div>
+                <div className="text-sm text-clay-300 mt-1">Crappie / Bass / Turkey</div>
+                <p className="mt-5 text-bone-100/85 leading-relaxed">
+                  Lifetime hunter and angler in the Cave Run area. Known as one of the best multi-species anglers in the region. Successful turkey guide — he and his clients have taken hundreds of birds.
+                </p>
               </div>
             </div>
           </Reveal>

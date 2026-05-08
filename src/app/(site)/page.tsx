@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Fish, BedDouble, Trophy, Star, Quote, Phone } from "lucide-react";
 import {
-  business, stats, offerings, lodge, packages, testimonials, lakeFacts, heroImages, guides
+  business, stats, offerings, lodge, packages, testimonials, lakeFacts, heroImages
 } from "@/lib/content";
 import { TEL, TEL_HREF } from "@/lib/utils";
 import Reveal from "@/components/site/Reveal";
@@ -276,51 +276,6 @@ export default function HomePage() {
               </Reveal>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* GUIDES TEASER */}
-      <section className="section bg-bone-50">
-        <div className="container-x">
-          <Reveal>
-            <span className="eyebrow">Our Guide Staff</span>
-          </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="h-display text-4xl md:text-6xl mt-3 text-forest-900 max-w-3xl">
-              The largest muskie guide staff in North America.
-            </h2>
-          </Reveal>
-          <Reveal delay={0.1}>
-            <p className="mt-6 max-w-2xl text-forest-700 leading-relaxed">
-              Line-class records, the state's largest registered fish, and the most total muskies caught in a single year.
-              These are the elements that have built a guide service that keeps people returning year after year.
-            </p>
-          </Reveal>
-          <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {guides.slice(0, 4).map((g, i) => (
-              <Reveal key={g.name} delay={i * 0.05}>
-                <div className="rounded-3xl bg-forest-50 p-6 ring-1 ring-forest-100 h-full">
-                  {g.image ? (
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-clay-300">
-                      <Image src={g.image} alt={g.name} fill className="object-cover" />
-                    </div>
-                  ) : (
-                    <div className="w-12 h-12 rounded-full bg-clay-500 grid place-items-center text-bone-50 font-display text-lg">
-                      {g.name.split(" ").map(n => n[0]).join("").slice(0, 2)}
-                    </div>
-                  )}
-                  <div className="mt-4 font-display text-xl text-forest-900">{g.name}</div>
-                  <div className="text-xs uppercase tracking-[0.2em] text-clay-600 mt-1">{g.role}</div>
-                  <p className="mt-3 text-sm text-forest-700 leading-relaxed line-clamp-3">{g.bio}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={0.2}>
-            <div className="mt-10">
-              <Link href="/our-guides" className="btn-ghost">Meet all 13 guides <ArrowRight className="w-4 h-4" /></Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 

@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us — Cave Run Muskie Guide Service",
   description:
-    "Cave Run Muskie Guide Service & The Muskie Lodge — the finest guides and lodging at one of America's top-10 muskie lakes.",
+    "Cave Run Muskie Guide Service & The Muskie Lodge — trophy muskie fishing and lodging at one of America's top-10 muskie lakes.",
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={0.05}>
             <h1 className="h-display text-5xl md:text-7xl mt-3 text-forest-900 max-w-3xl">
-              The finest guides<br />& lodging on Cave Run.
+              Trophy fishing<br />& lodging on Cave Run.
             </h1>
           </Reveal>
         </div>
@@ -41,8 +41,7 @@ export default function AboutPage() {
                 one of the most impressive, professional muskie staffs in the world today.
               </p>
               <p className="mt-4">
-                Our guides have line class records, the state's largest registered fish, and the most total fish caught in a single year.
-                These are the elements that have built a guide service that keeps people returning year after year.
+                Our guide service has built a reputation that keeps people returning year after year. Line class records, the state's largest registered fish, and the most total fish caught in a single year.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -73,7 +72,7 @@ export default function AboutPage() {
               <div className="rounded-3xl bg-clay-100 p-6 ring-1 ring-clay-200">
                 <div className="font-script text-3xl text-clay-700 leading-none">Tony Grant</div>
                 <div className="mt-2 text-sm text-forest-800">Owner, head guide, lure maker, lodge keeper. Holder of one previous KY state-record muskie. Father of the next one too, in a way.</div>
-                <Link href="/our-guides" className="inline-flex items-center gap-2 mt-4 text-clay-700 font-medium">Meet the staff →</Link>
+
               </div>
             </aside>
           </Reveal>

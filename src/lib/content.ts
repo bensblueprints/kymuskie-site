@@ -138,22 +138,6 @@ export const packages = [
   },
 ];
 
-export const guides = [
-  { name: "Tony Grant", role: "Owner & Head Guide", bio: "Operates Cave Run Muskie Guide Service and Mountain Muskie Lodge. Caught a 44.75 lb Kentucky State Record muskie. Manufacturer of muskie lures including the Producer Series Rattlin' Shad.", image: "/images/guides/tonygrant1.jpg" },
-  { name: "Scott Salchli", role: "Mountain Muskie Guide", bio: "Guided his step-daughter Sara Terry to the current Kentucky State Record (54\" / 47 lbs). 100+ days/year on the water, multiple PMTT top-tens, KSMC Largest Release winner three times. Only PMTT team in trail history to land legal fish in every qualifying event of a season.", image: "/images/guides/scott-225x300.jpg" },
-  { name: "Charlie Thompson", role: "Senior Guide", bio: "Eastern Kentucky native, taught muskie fishing by his grandfather. Casting Cave Run for 20+ years. PMTT top-ten finisher and the lodge's unofficial 'pickin' and grinnin'' voice.", image: "/images/guides/charile1.jpg" },
-  { name: "Darrell Seasor", role: "Father in the Father-Son Duo", bio: "Fifteen years on Cave Run. Discovered muskie fishing through a turkey-hunting trade and has been hooked since day one.", image: "/images/guides/daryl1.jpg" },
-  { name: "Lance Seasor", role: "Son in the Father-Son Duo", bio: "Started chasing muskies at 14. Six years guiding all experience levels. PMTT regular since 2004; 3rd at the 2008 Trinity Championship.", image: "/images/guides/lance1-300x190.jpg" },
-  { name: "Jason Ritchie", role: "Guide", bio: "Grew up fishing the lakes, creeks and streams in the Cave Run area. 20+ years pursuing muskies, 10+ years guiding. Specializes in casting, trolling, and live-bait fall fishing.", image: "/images/guides/jason_bio.jpg" },
-  { name: "Mike Lopresti", role: "Guide ('Two Scoops')", bio: "Cut his teeth on Northern Wisconsin muskies. The past six years targeting Cave Run. Outstanding personality makes a day on the water entertaining and educational.", image: "/images/guides/mike-300x199.png" },
-  { name: "Frank Veeche", role: "Guide", bio: "Plainly put, loves muskie fishing. 4+ years on staff with a special enthusiasm for taking kids fishing. Both trolling and casting; laid-back teacher.", image: "/images/guides/frank-300x225.jpg" },
-  { name: "Justin Diller", role: "Guide", bio: "Muskie crazy since age 11. Landed his first 50-incher young. Has chased giants from Minnesota to Canada and now puts clients on Cave Run fish year-round.", image: "/images/guides/justin.jpg" },
-  { name: "Billy Strange", role: "Guide", bio: "Lifelong Cave Run angler. Slow, methodical, thorough. Many of his clients catch their first or biggest muskie sharing his boat.", image: "/images/guides/billy-300x225.jpg" },
-  { name: "Jimmy Barnes", role: "Guide", bio: "Started on Dale Hollow smallmouth, converted to a Cave Run muskie fanatic. PMTT Runner-Up at the Cave Run event.", image: "/images/guides/jimmy1.jpg" },
-  { name: "Joey White", role: "Guide", bio: "Born with muskie fishing in his blood. Cave Run is his second home — childhood weekends camping out, surviving on bologna and peanut butter, fishing daylight to dark.", image: "/images/guides/joey.jpg" },
-  { name: "Tim Newsome", role: "Multi-Species Guide — Crappie / Bass / Turkey", bio: "Lifetime hunter and angler in the Cave Run area. Known as one of the best multi-species anglers in the region. Successful turkey guide — he and his clients have taken hundreds of birds." },
-];
-
 export const testimonials = [
   {
     author: "Chris",
@@ -182,7 +166,6 @@ export const faqs = [
   { q: "Where do guests stay?", a: "Our packages include lodging at Mountain Muskie Lodge, attached to The Muskie Shack." },
   { q: "What about restaurants nearby?", a: "The Bull is a quarter mile away (pizza, burgers, breakfast, deli). The lodge has a complete cooking facility. Morehead, 30 minutes away, has full dining." },
   { q: "What should I bring?", a: "Rain gear, polarized sunglasses, food, drink, and a Kentucky fishing license. We provide everything else." },
-  { q: "Do you target species other than muskie?", a: "Yes — Tim Newsome guides bass, crappie, and white bass on request, plus spring turkey hunts." },
   { q: "Can I bring my own rod and reel?", a: "Absolutely. We have setups dialed for what we're doing, but you're welcome to bring yours." },
 ];
 

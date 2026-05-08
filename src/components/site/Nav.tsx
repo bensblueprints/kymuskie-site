@@ -10,7 +10,6 @@ const links = [
   { href: "/crappie", label: "Crappie" },
   { href: "/lodge", label: "The Lodge" },
   { href: "/packages", label: "Packages" },
-  { href: "/our-guides", label: "Guides" },
   { href: "/cave-run-lake", label: "The Lake" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
